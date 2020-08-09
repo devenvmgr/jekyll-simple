@@ -1,0 +1,49 @@
+# Site settings
+
+# title of site appears in banner
+title: SiteName
+# tagline appears in banner
+tagline: Simple theme
+# description appears in meta tags and other locations
+# this description might appear in search result lists, keep around 160 characters max
+description: "this is a simple jekyll theme"
+# keywords appear in meta tags
+keywords: "my, list, of, keywords"
+# creator of the digital collection, to appear in meta tags
+author: MyName
+# creator contact email for meta tags
+email: MyEmail
+# when did you publish this
+collection-date: "2020"
+
+#google tracking code:
+google-tracking-id:
+
+# url is your gh-pages base, following the pattern: username.github.io
+url: https://myurl
+# baseurl is your github repository's name prefixed with a /
+baseurl:
+# repository is the github repository's full url
+repository: https://github.com/MyRepo
+
+# Theme Options
+fontawesome: true
+# navbar text color
+# Choose from "navbar-light" for use with light background colors, or "navbar-dark" for dark background colors
+# navbar-color: navbar-dark
+# navbar background color
+# Choose from bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark, bg-white
+# navbar-background: bg-secondary
+# theme with Bootswatch (https://github.com/thomaspark/bootswatch)
+# Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti
+bootswatch: darkly
+
+# google services [optional!]
+# leave these blank or comment out to NOT include google code
+# google-tracking-id: "UA-74844011-1"
+
+# build settings
+permalink: pretty
+# Note: use environment variable on build command to include analytics
+# JEKYLL_ENV=production jekyll build
+# (this is done automatically by gh-pages build)
