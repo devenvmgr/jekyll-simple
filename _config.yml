@@ -1,5 +1,4 @@
 # Site settings
-
 # title of site appears in banner
 title: SiteName
 # tagline appears in banner
@@ -14,18 +13,15 @@ author: MyName
 # creator contact email for meta tags
 email: MyEmail
 # when did you publish this
-collection-date: "2020"
-
-#google tracking code:
+collection-date: "2021"
+# google analytics code:
 google-tracking-id:
-
 # url is your gh-pages base, following the pattern: username.github.io
 url: https://myurl
 # baseurl is your github repository's name prefixed with a /
 baseurl:
 # repository is the github repository's full url
 repository: https://github.com/MyRepo
-
 # Theme Options
 fontawesome: true
 # navbar text color
@@ -37,13 +33,9 @@ fontawesome: true
 # theme with Bootswatch (https://github.com/thomaspark/bootswatch)
 # Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti
 bootswatch: darkly
-
-# google services [optional!]
-# leave these blank or comment out to NOT include google code
-# google-tracking-id: "UA-74844011-1"
-
 # build settings
 permalink: pretty
 # Note: use environment variable on build command to include analytics
 # JEKYLL_ENV=production jekyll build
 # (this is done automatically by gh-pages build)
+
